@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "description": "WebdriverIO service for making redirects by patterns over Redirect-To-Pattern plugin for chrome",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
   },
   "main": "./launcher.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mailru/wdio-redirect-by-pattern-service.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   },
   "keywords": [
     "webdriverio",
