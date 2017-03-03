@@ -1,0 +1,31 @@
+{
+  "name": "wdio-redirect-to-pattern-service",
+  "version": "0.0.1",
+  "description": "WebdriverIO service for making redirects by patterns over Redirect-To-Pattern plugin for chrome",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./launcher.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailru/wdio-redirect-by-pattern-service.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "selenium",
+    "redirect",
+    "pattern"
+  ],
+  "author": "Arthur Udalov",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/mailru/wdio-redirect-by-pattern-service/issues"
+  },
+  "homepage": "https://github.com/mailru/wdio-redirect-by-pattern-service#readme",
+  "devDependencies": {
+    "typescript": "^2.2.1"
+  },
+  "dependencies": {
+    "@types/node": "^7.0.5"
+  }
+}
