@@ -1,6 +1,6 @@
 {
   "name": "wdio-redirect-to-pattern-service",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "WebdriverIO service for making redirects by patterns over Redirect-To-Pattern plugin for chrome",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
